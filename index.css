@@ -1,0 +1,287 @@
+
+body{
+  background-color: #DE8971
+
+}
+h1{
+  color: white;
+  font-family: 'Roboto Slab', serif;
+}
+h2{
+  color:white
+}
+h3{
+  color: white;
+
+}
+.image1{
+  width:500px;
+  height:300px;
+  border:3px white solid;
+
+
+}
+button{
+  background-color: white;
+  color: #94D0CC;
+   display:block;
+
+}
+a{
+  color: white;
+  font-size: 1rem;
+  padding:10px;
+text-decoration: none;
+
+}
+i{
+  font-size: 2rem;
+  color: blue;
+  margin-top: 10px;
+
+}
+.firstpart{
+  border-bottom: 2px solid;
+  border-color: white;
+}
+.image2{
+  width:500px;
+  height:300px;
+  border:3px white solid;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.image3{
+  width:180px;
+  height200px;
+  border-radius:60%;
+  margin-bottom:10px;
+}
+i:hover{
+  color: white;
+}
+ul{
+  margin-left: : 0;
+  list-style-type: none;
+  padding: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #8F4068;
+
+
+
+}
+li{
+  display: inline;
+  margin-left: 0px;
+  padding: 20px;
+}
+li:hover{
+  background-color:#907FA4;
+
+}
+ .parent-circle{
+width: 250px;
+height:250px;
+border-radius: 50%;
+border: solid 10px white;
+display:flex;
+animation-name: play1;
+animation-duration:5s;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+
+}
+@keyframes play1 {
+0%{
+  transform: rotate(90deg);
+  background-color:#D7B19D;
+  border-color:#C1AC95;
+
+}
+
+25%{
+  transform: rotate(180deg);
+  background-color:#C68B59;
+    border-color:#C1AC95;
+}
+
+50%{
+  transform: rotate(270deg);
+  background-color: #865439
+}
+
+100%{
+  transform: rotate(360deg);
+  background-color:#402218
+}
+
+
+}
+
+
+.child-circle1{
+  width: 80px;
+  height:80px;
+  border-radius: 50%;
+  border: solid 4px white;
+  position: relative;
+  top :50px;
+  left:15px;
+  background-color:white;
+background-image: linear-gradient(90deg, rgba(200,0,0,.5) 50%, transparent 50%),
+linear-gradient(rgba(200,0,0,.5) 50%, transparent 50%);
+background-size:50px 50px;
+
+}
+.child-circle2{
+  width: 80px;
+  height:80px;
+  border-radius: 50%;
+  border: solid 4px white;
+  position: relative;
+  left:50px;
+  top:30px;
+  background-color:white;
+  background-image: linear-gradient(90deg, rgba(200,0,0,.5) 50%, transparent 50%),
+  linear-gradient(rgba(200,0,0,.5) 50%, transparent 50%);
+  background-size:50px 50px;
+
+
+}
+.child-circle3{
+  width: 80px;
+  height:80px;
+  border-radius: 50%;
+  border: solid 4px white;
+  position: relative;
+  right :60px;
+  top:150px;
+  left:-80px;
+  background-color:white;
+  background-image: linear-gradient(90deg, rgba(200,0,0,.5) 50%, transparent 50%),
+  linear-gradient(rgba(200,0,0,.5) 50%, transparent 50%);
+  background-size:50px 50px;
+
+}
+.window{
+  width: 500px;
+  height: 300px;
+  border: solid 10px white;
+
+}
+.glass1{
+
+  overflow: hidden;
+  width: 500px;
+  height: 150px;
+border-bottom: solid 8px brown;
+animation-name: window;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+@keyframes window {
+
+0%{
+  background-color: #d2f8fe
+
+
+}20%{
+  background-color: #68e9ff
+
+}30%{
+  background-color:#37e2ff
+
+
+
+}40%{
+  background-color: #008ba3
+
+}50%{
+  background-color: #006172
+
+}60%{
+  background-color: #003741
+
+}
+100%{
+  background-color: #000d10
+
+}
+
+}
+
+.glass2{
+
+  width: 500px;
+  height: 150px;
+background-image: url(https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
+
+
+);
+}
+
+.z1{
+color: white;
+font-size: 3rem;
+position: relative;
+top:50px;
+left:60px;
+}
+
+.fa-moon{
+
+  color: yellow;
+  animation-name: moon;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: relative;
+  top: 200px;
+  opacity: 0;
+}
+@keyframes moon {
+  0%{
+transform: translateY(0px);
+  }
+50%{
+opacity: 0;
+}
+
+
+  100%{
+transform: translateY(-200px);
+opacity: 1;
+  }
+
+}
+
+.fa-sun{
+color: yellow;
+position: relative;
+left: 400px;
+
+opacity:1;
+font-size: 3rem;
+animation-name: sun;
+
+animation-duration: 10s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+@keyframes sun {
+  0%{
+
+  transform: translateY(0px);
+  }
+
+
+  100%{
+    transform: translateY(200px);
+  opacity: 0;
+  }
+
+}
